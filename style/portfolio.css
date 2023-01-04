@@ -5,7 +5,7 @@
 
 /* header and navigation styles */
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   margin: 50px 200px;
@@ -16,8 +16,9 @@ nav{
   font-size: 45px;
 }
 
-nav ul{
+nav ul {
   display: flex;
+  align-items: center;
 }
 
 nav li {
@@ -25,6 +26,45 @@ nav li {
   margin-left: 50px;
 
 }
-.text-primary{
-  color:#FD6E0A
+
+.text-primary {
+  color: #FD6E0A
+}
+
+.btn-primary {
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+}
+
+/* banner styles */
+.banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+}
+
+.banner-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
