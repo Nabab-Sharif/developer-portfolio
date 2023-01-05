@@ -85,10 +85,15 @@ main {
   margin: 0 auto;
 }
 
+section {
+  margin-top: 130px;
+}
+
 
 /* about section styles */
+
 .about {
-  margin-top: 130px;
+  /*margin-top: 130px;  common margin */
   background: #FFF8F3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -136,7 +141,7 @@ main {
 /* what i do styles */
 
 .what-i-do {
-  margin-top: 130px;
+  /* margin-top: 130px; */
 }
 
 .section-title {
@@ -144,7 +149,7 @@ main {
   text-align: center;
   font-weight: 700;
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .section-description {
@@ -184,4 +189,48 @@ main {
   font-size: 16px;
   line-height: 28px;
   color: #757575;
+}
+
+/* Resume Section Styles */
+
+.resume-content {
+  display: flex;
+  gap:24px
+}
+
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.resume .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+.resume-button{
+  margin-top: 50px;
+  text-align: center;
 }
